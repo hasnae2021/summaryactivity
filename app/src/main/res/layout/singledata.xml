@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <HorizontalScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <TableLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:dividerPadding="5dp">
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Choice"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Nature"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Sauce"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Toppings"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Price"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/purple_700"
+                    android:textSize="25dp"
+                    android:text="Quantity"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/cell"
+                    android:layout_toRightOf="@+id/addquantity"
+                    android:padding="8dp"/>
+
+            </TableRow>
+            <TableRow
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Name"
+                    android:id="@+id/txtName"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Choice"
+                    android:id="@+id/txtChoice"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Nature"
+                    android:id="@+id/txtNature"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Sauce"
+                    android:id="@+id/txtSauce"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="Toppings"
+                    android:id="@+id/txtToppings"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView android:layout_height="wrap_content"
+                    android:layout_width="wrap_content"
+                    android:text="45DH"
+                    android:id="@+id/txtPrice"
+                    android:textStyle="bold|italic"
+                    android:textSize="25dp"
+                    android:background="@drawable/cell"
+                    android:textColor="@color/purple_700"
+                    android:padding="8dp"/>
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/purple_700"
+                    android:id="@+id/quantity"
+                    android:textSize="25dp"
+                    android:text="1"
+                    android:textStyle="bold|italic"
+                    android:background="@drawable/cell"
+                    android:layout_toRightOf="@+id/addquantity"
+                    android:padding="8dp"
+                    />
+            </TableRow>
+        </TableLayout>
+    </HorizontalScrollView>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="delete"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:id="@+id/delete"
+        />
+</LinearLayout>
